@@ -2,7 +2,7 @@
 
 Healthcare-focused SQL work: real data, real problems, real cleanup.
 
-Projects include data cleaning pipelines (deduplication, null handling, standardization), window functions, CTEs, and exploratory analysis — built to reflect how data actually looks when it comes out of an EHR, billing system, or operations database.
+Projects include data cleaning pipelines (deduplication, null handling, standardization), window functions, CTEs, and exploratory analysis.
 
 ## What's here
 
