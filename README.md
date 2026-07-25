@@ -17,7 +17,7 @@ SQL scripts from my data analytics portfolio. Two standalone practice files, not
 
 ## Related
 
-- Live portfolio write-ups: [andre-weissmann-portfolio.pplx.app](https://andre-weissmann-portfolio.pplx.app)
+- Live portfolio write-ups: [andre-weissmann-data-portfolio.pplx.app](https://andre-weissmann-data-portfolio.pplx.app)
 - Portfolio content (JSON + dashboard files): [andre-portfolio-content](https://github.com/Andre-Weissmann/andre-portfolio-content)
 - Flagship product work: [dataglow](https://github.com/Andre-Weissmann/dataglow)
 
