@@ -1,19 +1,26 @@
-# SQL Portfolio — Andre Weissmann
+# sql-data-projects
 
-Healthcare-focused SQL work: real data, real problems, real cleanup.
+SQL scripts from my data analytics portfolio. Two standalone practice files, not a packaged product.
 
-Projects include data cleaning pipelines (deduplication, null handling, standardization), window functions, CTEs, and exploratory analysis.
+## What's in this repo
 
-## What's here
+| File | What it does | Dialect notes |
+|---|---|---|
+| `nashville_housing_data_cleaning.sql` | Cleans Nashville housing sales data: standardizes sale dates, fills missing property addresses via self-join on ParcelID, splits address fields, handles sold-as-vacant values, removes duplicates, drops unused columns | Written against SQL Server style (`ISNULL`, `CONVERT`, three-part names like `SQLProject.dbo.NashvilleHousing`) |
+| `grocery_store_database_with_stats.sql` | Builds a small grocery `store` table, inserts sample items, then runs price/section aggregates and popularity ranking | Simple SQL (`CREATE TABLE`, `INSERT`, `AVG`, `ORDER BY`, `LIMIT`) |
 
-- **Nashville Housing Data Cleaning** — 56,477 rows, 0 duplicates after cleanup. Date standardization, address parsing, null population via self-join, and removal of unused columns.
-- Window functions and aggregations applied to real-world messy datasets
-- CTEs for multi-step logic that stays readable
+## What this is not
 
-## Tools
+- Not healthcare SQL (the Nashville file is real-estate housing data)
+- Not Power BI, Tableau, or Excel work (those live in other repos / the live portfolio)
+- Not a reusable library or database product
 
-SQL (standard) · Tested against MySQL, PostgreSQL, and DuckDB · Compatible with most major databases
+## Related
 
-## Live portfolio
+- Live portfolio write-ups: [andre-weissmann-portfolio.pplx.app](https://andre-weissmann-portfolio.pplx.app)
+- Portfolio content (JSON + dashboard files): [andre-portfolio-content](https://github.com/Andre-Weissmann/andre-portfolio-content)
+- Flagship product work: [dataglow](https://github.com/Andre-Weissmann/dataglow)
 
-See these projects in action at [andre-weissmann-portfolio.pplx.app](https://andre-weissmann-portfolio.pplx.app/portfolio.html)
+## Author
+
+**Andre Weissmann** · Chicago · Data analyst
